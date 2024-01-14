@@ -1,0 +1,58 @@
+.padre-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    background-color: $color-1;
+    width: 250px !important; 
+    height: 420px !important;
+    margin: 20px !important;
+    margin-bottom: 60px !important;
+    text-align: center !important;
+    padding: 10px !important;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn {
+    background-color: $color-2;
+    border-color: $color-2;
+}
+
+.card {
+    button {
+        font-weight: bold;
+        padding: 3px;
+        cursor: pointer;
+    }
+    img {
+        @include sizes (250px, 270px);
+    }
+    p {
+        margin: 5px;
+    }
+}
+
+.encabezado {
+    margin-bottom: 10px;
+}
+
+.btn-eliminar {
+    background-color: #dc3545; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+.productos {
+    margin-top: 100px;
+  }

@@ -1,0 +1,94 @@
+@media (max-width: 2560px) {
+    .carousel-item img {
+        height: 800px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .carousel-item img {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .carousel-item img {
+        height: 450px;
+    }
+    .col {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        p {
+            height: 100px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .avatar {
+        margin: 0;
+    }
+    .carrito{
+        margin: 0;
+    }
+}
+
+@media (max-width: 840px) {
+    .carousel-item img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contenedor {
+        flex-wrap: wrap;
+    }
+    .lista-nav {
+        flex-direction: column;
+    }
+    .buscador {
+        margin-left: 0;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+    .col {
+        p {
+            height: 170px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .carousel-item img {
+        height: 250px;
+    }
+    .ubicacion {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+
+
+
+@media (max-width: 325px) {
+    .carousel-item img {
+        height: 150px;
+    }
+    .col {
+        h4 {
+            height: 60px;
+        }
+        p {
+            height: 180px;
+        }
+    }
+}
