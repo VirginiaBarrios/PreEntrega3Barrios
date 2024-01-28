@@ -93,8 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const productos = [
         {"nombre":"Sansevieria", "precio": 1700, "thumbnailUrl": "img/sansevieria2.jpg", "id": 1},
         {"nombre":"Kalanchoe Floral", "precio": 990, "thumbnailUrl": "img/kalanchoe-floral2.png", "id": 2},
-        {"nombre":"Malvon Italiano", "precio": 1800, "thumbnailUrl": "img/malvon-italiano-blanco.png", "id": 3},
-        {"nombre":"Spathiphyllum", "precio": 6000, "thumbnailUrl": "img/spathiphyllum.jpg", "id": 4}
+        {"nombre":"Malvón Italiano", "precio": 1800, "thumbnailUrl": "img/malvon-italiano-blanco.png", "id": 3},
+        {"nombre":"Spathiphyllum", "precio": 6000, "thumbnailUrl": "img/spathiphyllum.jpg", "id": 4},
+        {"nombre":"Aglaonema Brasil", "precio": 2800, "thumbnailUrl": "img/aglaonema-brasil.jpeg", "id": 5},
+        {"nombre":"Crotón Petra", "precio": 5500, "thumbnailUrl": "img/croton-petra.jpeg", "id": 6},
+        {"nombre":"Maceta verde", "precio": 2800, "thumbnailUrl": "img/maceta-esfera-verde.png", "id": 7},
+        {"nombre":"Maceta azul", "precio": 2100, "thumbnailUrl": "img/maceta-azul.jpeg", "id": 8}
     ];
 
     const padreCards = document.querySelector('.padre-cards');
@@ -125,3 +129,17 @@ fetch("/data/productos.json")
         console.log(data);
     })
     .catch(error => console.error("Error al obtener los datos:", error));
+
+
+
+
+
+
+
+
+
+
+
+
+
+

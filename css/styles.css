@@ -361,6 +361,26 @@ h3 {
   margin-top: 100px;
 }
 
+
+#loginForm {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+
+.registro {
+  text-align: center;
+  justify-content: center;
+}
+
+
 @media (max-width: 2560px) {
   .carousel-item img {
     height: 800px;
@@ -441,5 +461,12 @@ h3 {
     height: 180px;
   }
 }
+
+
+
+
+
+
+
 
 /*# sourceMappingURL=styles.css.map */
